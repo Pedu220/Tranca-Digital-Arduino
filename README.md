@@ -22,11 +22,7 @@ O firmware foi estruturado para evitar o travamento do microcontrolador e otimiz
 1. **Varredura Matricial:** Uso das resistências internas de *pull-up* (`INPUT_PULLUP`) para leitura segura das teclas.
 2. **Buffer de Memória:** Armazenamento sequencial dos caracteres digitados em um vetor `char`.
 3. **Validação:** Uso da função `strcmp` para comparar a string digitada com a senha mestre na memória flash.
-4. **Acionamento:** Controle de ângulo do servo motor (0º a 90º) para destrancar, com delay de retenção e retorno automático (posição segura).
-
-## 🚀 Próximos Passos (Roadmap)
-- [ ] Integração de Módulo RFID para acesso híbrido (Aproximação + Senha).
-- [ ] Implementação de "Modo de Configuração" para troca de senha via teclado.
+4. **Acionamento:** Controle de ângulo do servo motor (0º a 90º) para destrancar, com delay de retenção e retorno automático (posição segura)
 
 ---
 *Desenvolvido como projeto prático de integração mecatrônica e sistemas embarcados.*
